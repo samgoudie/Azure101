@@ -1,4 +1,4 @@
-# Task 1 - Overview and create storage account
+# ![Task 1 - Overview and create storage account]
 
 - Login to the Azure portal and create a resource group called RG-Azure101 in West Europe - This is where you will be creating resources for the lab
 - In the portal Home page, expand all services (top left) and go to subscriptions. Click into your subscription Then "usage & quotas". 
