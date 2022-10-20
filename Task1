@@ -1,0 +1,23 @@
+#Task 1 - Overview and create storage account
+
+- Login to the Azure portal and create a resource group called RG-Azure101 in West Europe - This is where you will be creating resources for the lab
+- In the portal Home page, expand all services (top left) and go to subscriptions. Click into your subscription Then "usage & quotas". 
+- Look at the current quota limits for VM's.
+- Click into resource and create an Azure storage account in the existing resource group you created. (Notice how there are more options than Azure native storage in the marketplace.)
+      - The storage account requires a unique name
+      - Pick the same region as your resource group
+      - Standard storage and LRS redundancy
+      - leave the other options on default and create
+      
+- Now we have the storage account we need a container to store data. Find the storage account in the portal and create a blob container under data storage.
+      - Give it a name and set the public access level to private
+      
+- we will now upload a file to the storage account. Create an empty file on your local device then access the container in the Azure portal. Click on upload and seelct the file you created.
+- Now the file is stored in the Azure storage account. If the container you created was set to public then you would be able to access this file from anywhere on the internet.
+
+
+- This is the end of the first task, discuss the following with your peers and come up with answers:
+
+- Why do we select a region for the resource group? Do all resources we create need to be in that region?
+- Why are Quota's imprtant to understand per subscription? Can you increase it from the default?
+- Why do we set the container in the storage account to private?
