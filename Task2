@@ -21,6 +21,19 @@ Task2 - Create network
 
 2.2 - Create Application Gateway
 
-- In the portal create a new application gateway with the name agw-webapp, ensuring the tier is set to 'Standard V2' and you select the esiting virtual network / subnet (sn-agw) you created above.  
+- In the portal create a new application gateway with the name agw-webapp, ensuring the tier is set to 'Standard V2' and you select the esiting virtual network / subnet (sn-agw) you created above. 
+  - leave the defaults for everything else and process to frontends  
+  - create a new public IP called pip-agw  
+  - in backends give the pool a name 'app-vms' and select yes to add backend pool without targets for now and save  
+  - in configuration click add a routing rule  
+    - give the rule a name rule-webapp  
+    - priority 10  
+    - give the listener a name  
+    - select the frontend ip you created  
+    - leave the rest on default  
+    - select 'backend targets' and add the target to the backend pool you created in the dropdown  
+    - click "add new" on backend settings, give the settings a name and leave the rest on default  
+  - confirm settings and click create  
+  
 
 
