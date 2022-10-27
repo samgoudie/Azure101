@@ -4,3 +4,4 @@ Task 3 - Create VM's
 - The OS should all be the latest version of Windows runnning in Azure
 - Ensure each set of VM's are in and availability set and have rack redundancy from each other
 - IIS should be installed on the App VM's 
+- SQL should be installed on the SQL VM's - Use the SQL Server 2022 image in the marketplace!
