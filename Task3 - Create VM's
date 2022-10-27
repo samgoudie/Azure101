@@ -1,0 +1,6 @@
+Task 3 - Create VM's
+
+- The task here is to create 2 x VM's in the web subnet and 2 x VM's in the data subnet.
+- The OS should all be the latest version of Windows runnning in Azure
+- Ensure each set of VM's are in and availability set and have rack redundancy from each other
+- IIS should be installed on the App VM's 
