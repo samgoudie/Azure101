@@ -1,3 +1,6 @@
 Task 4 - Backup
 
-- The task is to create a backup policy so that all the VM's are backed up daily
+- The task is to create a backup policy so that all the VM's are backed up once a day with a weekly retention for 12 weeks  
+- There shoud be VM level backups of each VM, but also SQL databases should be able to be backed up and restored individually  
+
+
