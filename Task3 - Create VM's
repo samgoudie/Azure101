@@ -10,4 +10,5 @@ Task 3 - Create VM's
 
 - Once create ensure you can access the VM's via Azure bastion
 - Add rules or disable windows firewall and test connectivity from the App VM's to the SQL VM's on port 1433
+- You will need to login to the SQL VM's and create a test database for the next task
 
