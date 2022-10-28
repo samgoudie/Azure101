@@ -1,0 +1,6 @@
+Task 5 - Monitoring
+
+- Use Azure montior to be able to track any issues with the backup sechedul you set in the previous task.  
+- Place monitoring on the virtual mahicne to notify you by email when a virtual machine reached over 80% CPU utilisation or memory over 5 minutes
+- Enable dependancy mapping on the VM's to be able to see runing process and dependancies in the app VM's  
+- Set alerts to notify you by email on any VM's that are unavailable
