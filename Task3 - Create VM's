@@ -7,3 +7,7 @@ Task 3 - Create VM's
 - SQL should be installed on the SQL VM's - Use the SQL Server 2022 image in the marketplace!
 - no ports should be open to public
 - for cost savings enable hybrid benefit and deploy on Standard SSD disks
+
+- Once create ensure you can access the VM's via Azure bastion
+- Add rules or disable windows firewall and test connectivity from the App VM's to the SQL VM's on port 1433
+
