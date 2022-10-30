@@ -1,0 +1,4 @@
+- Review your current architecture and come up with a new architeture that is redundant between Azure regions
+- Your architecture should include the ability to automatically or manually failover between regions without any DNS changes required
+- The solution should prevent any dataloss should any data be writted to the databases:
+(this may mean you look into difference options on how you handle the web VM failover compared to the databases)
