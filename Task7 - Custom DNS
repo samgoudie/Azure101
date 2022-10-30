@@ -1,0 +1,7 @@
+Create a custom DNS name for your application and have it resolve in a browser
+
+- Review App Service Domains in the portal, purchase a new unique public Domain for your application
+- Review public DNS zones and create a dns zone to host your public domain records
+- point the public domain you purchase to the application gateway and have your application resolve to your new domain name
+
+- What is the difference between an App service domain and a Public DNS zone?
