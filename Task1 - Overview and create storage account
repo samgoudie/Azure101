@@ -1,9 +1,12 @@
 Task 1 - Overview and create storage account
 
+- First we test access to the portal and show how we can use a storage account for file storage.
+
 - Login to the Azure portal and create a resource group called RG-Azure101 in West Europe - This is where you will be creating resources for the lab
 - In the portal Home page, expand all services (top left) and go to subscriptions. Click into your subscription Then "usage & quotas". 
-- Look at the current quota limits for VM's.
-- Click into resource and create an Azure storage account in the existing resource group you created. (Notice how there are more options than Azure native storage in the marketplace.)
+- Look at the current quota limits for VM's - there is nothing specific to change here but notice how some VM's have automatic quota and others (such as large M series) have a smaller quota.
+  
+- Click on the top left elipses in the portal, then create a resource. Create an Azure storage account in the existing resource group you created.
       - The storage account requires a unique name
       - Pick the same region as your resource group
       - Standard storage and LRS redundancy
@@ -19,5 +22,5 @@ Task 1 - Overview and create storage account
 - This is the end of the first task, discuss the following with your peers and come up with answers:
 
 - Why do we select a region for the resource group? Do all resources we create need to be in that region?
-- Why are Quota's imprtant to understand per subscription? Can you increase it from the default?
+- Why are Quota's imprtant to understand per subscription? Can you increase it from the default? Understand how this might be important to know for customer projects
 - Why do we set the container in the storage account to private?
