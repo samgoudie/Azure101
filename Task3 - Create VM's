@@ -4,7 +4,7 @@ Task 3 - Create VM's
 - The OS should all be the latest version of Windows runnning in Azure, ensure you know the username and password you set  
 - Ensure each set of VM's are in and availability set and have rack redundancy from each other
 - IIS should be installed on the App VM's 
-- SQL should be installed on the SQL VM's - Use the SQL Server 2022 image in the marketplace!
+- SQL should be installed on the SQL VM's - Use the SQL Server 2022 (developer) image in the marketplace!
 - no ports should be open to public
 - for cost savings enable hybrid benefit and deploy on Standard SSD disks
 
