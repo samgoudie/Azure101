@@ -32,5 +32,6 @@ Task2 - Create network
     - select the frontend ip you created  
     - leave the rest on default  
     - select 'backend targets' and add the target to the backend pool you created in the dropdown  
-    - click "add new" on backend settings, give the settings a name and leave the rest on default  
-  - confirm settings and click create  
+    - click "add new" on backend settings, give the settings a name and leave the rest on default 
+    - click "add"
+    - confirm settings and click create  
